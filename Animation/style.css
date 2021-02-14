@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+ padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:black;
+  min-height: 100vh;
+}
+.hunter{
+  display: flex;
+  flex-direction: row;
+}
+.hunter div {
+  position: relative;
+  width: 50px;
+  height: 400px;
+  margin: 20px;
+  overflow: hidden;
+  border-radius: 50px;
+  background: linear-gradient(to bottom,rgba(255, 0, 0, 0.5));
+  border: 2px solid black;
+
+}
+.hunter div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  border-radius: 40px;
+
+}
+
+.hunter div::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 46px;
+  height: 46px;
+  background: #09F9FB;
+  border-radius: 50%;
+  box-shadow: inset -5px -5px 5px rgba(0, 0, 0, 0.2), 0 420px 0 400px #ffe700;
+  animation: animate 2.5s ease-in-out infinite;
+  transform: translateY(350px);
+  animation-delay: calc(0.095s * var(--i));
+}
+
+@keyframes animate {
+  10% {
+    transform: translateY(350px);
+    filter: hue-rotate(180deg);
+  }
+
+  50% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(350px);
+    filter: hue-rotate(-600deg);
+
+  }
+}
