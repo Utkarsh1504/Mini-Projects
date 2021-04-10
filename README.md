@@ -5,4 +5,4 @@
  
 # [Calc](https://utkarsh1504.github.io/Mini-Projects/Calc/)
 
-# [The-News-Times](https://utkarsh1504.github.io/Mini-Projects/html-css-projects/)
+# [The-News-Times](https://utkarsh1504.github.io/Mini-Projects/html-css-project/)
