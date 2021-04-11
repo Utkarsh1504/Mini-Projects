@@ -21,7 +21,7 @@ body{
     backdrop-filter: blur(0.0px);
     -webkit-backdrop-filter: blur(0.0px);
     border-radius: 10px;
-    border: 1px solid #53fff6;
+    border: 1px solid #080808;
     cursor: pointer;
     align-content: stretch;
     justify-content: space-between;
