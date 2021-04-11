@@ -13,8 +13,8 @@ body{
     font-size: larger;
     font-family: Operator Mono;
     font-weight: bolder;
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     /*glassMorphism*/
     background: rgba(255, 255, 255, 1.00);
     box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
@@ -45,8 +45,8 @@ body{
 .screen{
     display: flex;
     flex-direction: column;
-    width: 370px;
-    height: 60px;
+    width: 250px;
+    height: 50px;
     font-size: 40px;
     font-family: Dank Mono;
     color: #00fef8;
@@ -61,7 +61,7 @@ body{
     margin: 2px;
 }
 .clear{
-    width: 185px;
+    width: 125px;
     color: #fff;
     background-color: rgb(252, 29, 29);
     border-color: rgb(60, 219, 247);
@@ -72,7 +72,7 @@ body{
     background-color: rgb(168, 139, 255);
 }
 .zero{
-    width: 280px;
+    width: 190px;
 }
 .colored{
     background-color: rgb(75, 138, 255);
