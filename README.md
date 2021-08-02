@@ -1,9 +1,9 @@
-**These are some mini peoject which i have made during learning that particular tech**
+# **These are some mini projects, which I have made during learning that particular tech.**
 
-- just click on the link
+ - ## Just click on the link:
 
-# [Animation](https://utkarsh1504.github.io/Mini-Projects/Animation/)
+- [x]  [Animation](https://utkarsh1504.github.io/Mini-Projects/Animation/)
 
-# [Calc](https://utkarsh1504.github.io/Mini-Projects/Calc/)
+- [x]  [Calc](https://utkarsh1504.github.io/Mini-Projects/Calc/)
 
-# [The-News-Times](https://utkarsh1504.github.io/Mini-Projects/html-css-project/)
+- [x]  [The-News-Times](https://utkarsh1504.github.io/Mini-Projects/html-css-project/)
